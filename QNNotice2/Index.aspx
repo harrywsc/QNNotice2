@@ -12,6 +12,7 @@
     <script type="text/javascript" src="js/jquery.roundabout.js"></script>
     <script type="text/javascript" src="js/jquery.roundabout-shapes.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+
     <style>
         body, html {
             background: #fff;
@@ -52,58 +53,54 @@
             </div>
         </div>
 
-            <div id="gla">
-                <div id="gla_box">
-                    <ul>
 
-                        <li>
-                            <div class="gla_inbox">
-                                <p>
-                                    <asp:Label ID="Pic1" runat="server" Text="Label"></asp:Label>
-                                </p>
-                                <img src="images/01.jpg" />
-                            </div>
-                        </li>
 
-                        <li>
-                            <div class="gla_inbox">
-                                <p>
-                                    <asp:Label ID="Pic2" runat="server" Text="Label"></asp:Label>
-                                </p>
-                                <img src="images/02.jpg" />
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="gla_inbox">
-                                <p>
-                                    <asp:Label ID="Pic3" runat="server" Text="Label"></asp:Label>
-                                </p>
-                                <img src="images/03.jpg" />
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="gla_inbox">
-                                <p>
-                                    <asp:Label ID="Pic4" runat="server" Text="Label"></asp:Label>
-                                </p>
-                                <img src="images/04.jpg" />
-                            </div>
-                        </li>
-
-                        <li>
-                            <div class="gla_inbox">
-                                <p>
-                                    <asp:Label ID="Pic5" runat="server" Text="Label"></asp:Label>
-                                </p>
-                                <img src="images/05.jpg" />
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
+        <div id="gla">
+            <div id="gla_box">
+                <ul>
+                    <li>
+                        <div class="gla_inbox">
+                            <p>
+                                <asp:Label ID="Pic1" runat="server" Text="Label" ForeColor="White"></asp:Label>
+                            </p>
+                            <img src="images/01.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="gla_inbox">
+                            <p>
+                                <asp:Label ID="Pic2" runat="server" Text="Label" ForeColor="White"></asp:Label>
+                            </p>
+                            <img src="images/02.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="gla_inbox">
+                            <p>
+                                <asp:Label ID="Pic3" runat="server" Text="Label" ForeColor="White"></asp:Label>
+                            </p>
+                            <img src="images/03.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="gla_inbox">
+                            <p>
+                                <asp:Label ID="Pic4" runat="server" Text="Label" ForeColor="White"></asp:Label>
+                            </p>
+                            <img src="images/04.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <div class="gla_inbox">
+                            <p>
+                                <asp:Label ID="Pic5" runat="server" Text="Label" ForeColor="White"></asp:Label>
+                            </p>
+                            <img src="images/05.jpg" />
+                        </div>
+                    </li>
+                </ul>
             </div>
+        </div>
 
     </form>
 </body>

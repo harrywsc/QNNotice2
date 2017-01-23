@@ -130,6 +130,7 @@
     <Content Include="js\jquery.corner.js" />
     <Content Include="js\jquery.roundabout-shapes.js" />
     <Content Include="js\jquery.roundabout.js" />
+    <Content Include="Test.aspx" />
     <Content Include="TXT\1.txt" />
     <Content Include="TXT\2.txt" />
     <Content Include="TXT\3.txt" />
@@ -148,6 +149,13 @@
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
